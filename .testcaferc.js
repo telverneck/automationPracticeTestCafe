@@ -5,4 +5,5 @@ module.exports = {
     hostname: os.hostname(),
 
     baseUrl: "https://www.saucedemo.com",
+    concurrency: 2, //Parallel mode
 };
